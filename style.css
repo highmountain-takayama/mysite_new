@@ -47,11 +47,22 @@ header ul li {
 
 .main {
   text-align: center;
+  /* align-items: center; */
+  /* display: flex; */
+  /* justify-content: center; */
 }
 
 .main img {
   padding-top: 64px;
-  margin: 32px;
+  margin-bottom: 32px;
+  /* position: relative; */
+}
+
+img:first-child{
+  margin:0 220px 32px 0;
+}
+img:nth-child(2){
+  margin-left:3em;
 }
 
 .main p {
